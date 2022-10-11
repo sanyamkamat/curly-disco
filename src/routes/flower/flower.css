@@ -4,11 +4,10 @@
   align-items: center;
   justify-content: center;
   justify-items: center;
-  --rotation: 135deg;
   --rotation: 225deg;
   --size-step: 10px;
-  --odd-color-step: 5;
-  --even-color-step: 5;
+  --odd-color-step: 15;
+  --even-color-step: 6;
   --center: 12;
 
   width: 100%;
@@ -67,5 +66,5 @@ input {
   background: #0044ff;
 }
 .pride .square:nth-child(12n + 11) {
-  background: #760089;
+  background: #890005;
 }
